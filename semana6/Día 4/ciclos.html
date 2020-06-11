@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			.formulario {
+				transform: translateY(-500px);
+				transition: all 0.5s ease-in-out;
+			}
+
+			.showForm {
+				transform: translateY(0);
+				transition: all 0.5s ease-in-out;
+			}
+
+			.menu {
+				max-width: 1100px;
+				margin: auto;
+				display: flex;
+				justify-content: space-between;
+			}
+
+			.hide {
+				display: none;
+			}
+		</style>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="menu">
+			<button id="singUp">Registrar</button>
+			<form action="" id="formIngreso">
+				<input type="text" placeholder="nombre" id="nameIngreso" />
+				<input type="password" placeholder="Contraseña" id="passwordIngreso" />
+				<button type="submit">ingresar</button>
+			</form>
+		</div>
+		<div class="menu2 hide">
+			<p class="usuario"></p>
+			<form action="" id="logout">
+				<button type="submit">salir</button>
+			</form>
+		</div>
+		<form action="" class="formulario" id="formularioGuardar">
+			<input type="text" placeholder="nombre" id="name" />
+			<br />
+			<br />
+			<input type="text" placeholder="contraseña" id="password" />
+			<br />
+			<br />
+			<button type="submit">guardar</button>
+		</form>
+		<!-- <h1>Escribe tu película</h1>
+        <form action="" id="formPeliculas">
+            <input type="text" placeholder="Película" id="pelicula">
+            <button type="submit">guardar</button>
+        </form>
+        <br>
+        <br>
+        <div id="listaPeliculas">
+            <h2>Lista de peliculas</h2>
+            <ul id="listaPeliculas"></ul>
+        </div>
+        <h1>Borrar tu película</h1>
+        <form action="" id="formBorrarPeliculas">
+            <input type="text" placeholder="Película" id="borrarPelicula">
+            <button type="submit">borrar</button>
+        </form> -->
+
+		<!-- <div class="menu">
+            <button id="login">Registrar</button>
+            <form action="" id="formIngreso">
+                <input type="text" placeholder="nombre" id="nameIngreso">
+                <input type="password" placeholder="password" id="passwordIngreso">
+                <button type="submit">ingresar</button>
+            </form>
+        </div>
+        <div class="menu2 hide">
+            <p class="usuario"></p>
+            <form action="" id="logout">
+                <button type="submit">salir</button>
+            </form>
+        </div>
+        <form action="" class="formulario" id="formulario">
+            <input type="text" placeholder="nombre" id="name">
+            <br>
+            <br>
+            <input type="password" placeholder="contraseña" id="password">
+            <br>
+            <br>
+            <button type="submit">guardar</button>
+        </form> -->
+		<script src="./Js/ciclos.js"></script>
+		<script src="./Js/profe.js"></script>
+	</body>
+</html>

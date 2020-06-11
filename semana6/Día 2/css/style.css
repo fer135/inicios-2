@@ -1,0 +1,34 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	height: 300px;
+	width: 300px;
+}
+
+.rojo {
+	background-color: red;
+	transition: all 1s ease-in-out;
+}
+
+.azul {
+	background-color: blue;
+}
+
+.amarillo {
+	background-color: yellow;
+}
+
+.violeta {
+	background-color: violet;
+}
+
+.move {
+	transform: translate(500px);
+	transition: all 1s ease-in-out;
+	border-radius: 50%;
+	background-color: teal;
+}
